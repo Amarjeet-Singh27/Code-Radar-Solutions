@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    int y
+    int y;
     char x;
     scanf("%c",&x);
     x = y;
