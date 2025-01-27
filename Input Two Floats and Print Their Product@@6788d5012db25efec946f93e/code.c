@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main (){
+int main () {
     float x, z, y;
     scanf("%f %f",&x &y);
     z = x * y;
