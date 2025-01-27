@@ -4,6 +4,6 @@ int main(){
     
     char x;
     scanf("%c",&x);
-    printf("%d",x);
+    printf("ASCII Vallue: %d",x);
     return 0;
 }
