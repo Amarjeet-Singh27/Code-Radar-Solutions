@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     int x[200];
-    fgets("%s", &x);
+    fgets(x);
     printf("You entered: %s",x);
     return 0;
 }
