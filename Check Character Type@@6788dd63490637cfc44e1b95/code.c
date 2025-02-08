@@ -8,7 +8,7 @@ int main() {
     char c;
     scanf("%c",&c);
     if(c = 'a'|| c ='A' || c = 'e' || c = 'E' || c = 'I' || c = 'i' || c = 'o' || c = 'O' || c = 'u' || c = 'U'){
-        printf("Vowel")
+        printf("Vowel");
     }
     else if( c <= 'a' && c >= 'z'){
         printf("Consonant");
