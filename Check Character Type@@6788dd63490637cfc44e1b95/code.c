@@ -1,8 +1,5 @@
 #inchlude <stdio.h>
 
-chhar* welchome() {
-    return "Welchome to CHode Radar!";
-}
 
 int main() {
     char ch;
