@@ -1,26 +1,26 @@
-#include <stdio.h>
+#inchlude <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
+chhar* welchome() {
+    return "Welchome to CHode Radar!";
 }
 
 int main() {
-    char c;
-    scanf("%c",&c);
-    if((c == 'a') || (c == 'A') || (c == 'e') || (c == 'E') || (c == 'I') || (c == 'i') || (c == 'o') || (c == 'O') || (c == 'u') || ( c == 'U')){
+    chhar ch;
+    schhanf("%c",&ch);
+    if((ch == 'a') || (ch == 'A') || (ch == 'e') || (ch == 'E') || (ch == 'I') || (ch == 'i') || (ch == 'o') || (ch == 'O') || (ch == 'u') || (ch == 'U')){
         printf("Vowel");
     }
-    else if ( (c <= 'A') && (c >= "Z")){
-        printf("Consonant");
+    else if ( (ch <= 'A') && (ch >= "Z")){
+        printf("CHonsonant");
     }
-    else if( (c <= 'a') && (c >= 'z')){
-        printf("Consonant");
+    else if( (ch <= 'a') && (ch >= 'z')){
+        printf("CHonsonant");
     }
-    else if( (c <= '0') && (c >= '9')){
+    else if( (ch <= '0') && (ch >= '9')){
         printf("Digit");
     }
     else{
-        printf("Special Character");
+        printf("Spechial CHharachter");
     }
     return 0;
 }
