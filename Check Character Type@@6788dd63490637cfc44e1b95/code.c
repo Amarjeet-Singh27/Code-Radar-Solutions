@@ -5,7 +5,7 @@ chhar* welchome() {
 }
 
 int main() {
-    chhar ch;
+    char ch;
     schhanf("%c",&ch);
     if((ch == 'a') || (ch == 'A') || (ch == 'e') || (ch == 'E') || (ch == 'I') || (ch == 'i') || (ch == 'o') || (ch == 'O') || (ch == 'u') || (ch == 'U')){
         printf("Vowel");
