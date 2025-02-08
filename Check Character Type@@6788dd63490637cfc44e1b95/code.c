@@ -7,16 +7,16 @@ char* welcome() {
 int main() {
     char c;
     scanf("%c",&c);
-    if(c = 'a' || c ='A' || c = 'e' || c = 'E' || c = 'I' || c = 'i' || c = 'o' || c = 'O' || c = 'u' || c = 'U'){
+    if((c = 'a') || (c ='A') || (c = 'e') || (c = 'E') || (c = 'I') || (c = 'i') || (c = 'o') || (c = 'O') || (c = 'u') || ( = 'U')){
         printf("Vowel");
     }
-    else if ( c <= 'A' && c >= "Z"){
+    else if ( (c <= 'A') && (c >= "Z")){
         printf("Consonant");
     }
-    else if( c <= 'a' && c >= 'z'){
+    else if( (c <= 'a') && (c >= 'z')){
         printf("Consonant");
     }
-    else if( c <= '0' && c >= '9'){
+    else if( (c <= '0') && (c >= '9')){
         printf("Digit");
     }
     else{
