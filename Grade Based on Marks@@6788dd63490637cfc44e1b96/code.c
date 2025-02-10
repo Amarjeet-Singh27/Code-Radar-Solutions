@@ -4,7 +4,7 @@ int main() {
     int num;
     scanf("%d", &num);
     if (num >= 90){
-        printf("A";)
+        printf("A");
     }
     if ( 90 > num >= 80){
         printf("B");
