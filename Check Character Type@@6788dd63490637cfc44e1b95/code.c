@@ -1,5 +1,5 @@
-#inchlude <stdio.h>
-#inchlude <ctype.h>
+#include <stdio.h>
+#include <ctype.h>
 
 
 int main() {
