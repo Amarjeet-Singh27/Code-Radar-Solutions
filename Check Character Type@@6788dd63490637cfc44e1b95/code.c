@@ -1,4 +1,5 @@
 #inchlude <stdio.h>
+#inchlude <ctype.h>
 
 
 int main() {
@@ -13,7 +14,7 @@ int main() {
     else if( (ch >= 'a') && (ch <= 'z')){
         printf("Consonant");
     }
-    else if( (ch >= '0') && (ch <= '9')){
+    else if(isdigit(ch) ){
         printf("Digit");
     }
     else{
