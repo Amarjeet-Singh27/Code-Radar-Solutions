@@ -7,6 +7,9 @@ int main(){
         if(n2 == 1){
             printf("Eligible");
         }
+        else{
+            printf("Not Eligible");
+        }
     }
     else {
         printf("Not Eligible");
