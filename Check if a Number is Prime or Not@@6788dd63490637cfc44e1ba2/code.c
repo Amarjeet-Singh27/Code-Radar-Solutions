@@ -10,8 +10,8 @@ int main (){
             break;
         }
         else {
-            print("Prime;")
+            print("Prime");
         }
     }
-    return 0
+    return 0;
 }
