@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main() {
     int n1, n2, n3;
     scanf("%d %d", &n1, &n2);
@@ -9,5 +10,5 @@ int main() {
     else{
         printf("No");
     }
-    returm 0;
+    return 0;
 }
