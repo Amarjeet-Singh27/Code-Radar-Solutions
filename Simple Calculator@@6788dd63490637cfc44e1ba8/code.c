@@ -16,8 +16,13 @@ int main(){
         printf("%d",result);
     }
     else{
-        result = num1/num2;
-        printf("%d", result);
+        if (symbol == '/' && num2 != 0){
+            result = num1 / num2;
+            printf("%d", result);
+        }
+        else {
+            printf("Error");
+        }
     }
     return 0;
 }
