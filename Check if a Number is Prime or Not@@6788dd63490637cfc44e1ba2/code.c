@@ -1,27 +1,25 @@
 #include <stdio.h>
-#include <math.h>
-
-int is_prime(int n) {
-    if (n <= 1) {
-        return 0; // Not prime
-    }
-    for (int i = 2; i <= sqrt(n); i++) {  // Check divisibility up to the square root of n
-        if (n % i == 0) {
-            return 0; // Not prime
-        }
-    }
-    return 1; // Prime
-}
 
 int main() {
-    int num;
-    printf("Enter a number: ");
+    int num, is_prime = 1; // Assume the number is prime initially
+    
     scanf("%d", &num);
 
-    if (is_prime(num)) {
-        printf("%d is a prime number.\n", num);
+    if (num <= 1) {
+        is_prime = 0; // Numbers less than or equal to 1 are not prime
     } else {
-        printf("%d is not a prime number.\n", num);
+        for (int i = 2; i <= num / 2; i++) {  // Check divisibility up to num/2
+            if (num % i == 0) {
+                is_prime = 0; // If divisible, it's not prime
+                break;
+            }
+        }
+    }
+
+    if (is_prime) {
+        printf("Prime");
+    } else {
+        printf("Not Prime");
     }
 
     return 0;
