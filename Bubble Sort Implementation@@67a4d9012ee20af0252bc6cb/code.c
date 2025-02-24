@@ -17,7 +17,7 @@ void printarray(int arr[], int n){
     }
 }
 
-int main() {
+void  main() {
     int n;
     scanf("%d", &n);
     int arr[n];
