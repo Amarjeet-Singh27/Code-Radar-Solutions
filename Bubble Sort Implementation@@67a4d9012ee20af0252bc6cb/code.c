@@ -26,5 +26,5 @@ void  main() {
     }
     bubbleSort(arr, n);
     printarray(arr, n);
-    return 0;
+    
 }
